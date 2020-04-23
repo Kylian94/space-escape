@@ -133,7 +133,9 @@ public class Work extends JPanel implements ActionListener, KeyListener {
 		
 		if(isALive == false) {
 			g.setColor(Color.white);
-			g.drawString("PERDU", 250, 100);
+			g.drawString("PERDU", 277, 100);
+			g.setColor(Color.RED);  
+
 		}
 	}
 	
