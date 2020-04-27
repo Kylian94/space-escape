@@ -173,7 +173,7 @@ public class Work extends JPanel implements ActionListener, KeyListener {
 		g.setColor(Color.red);
 		g.drawString("SPACE", 30, 30);
 		g.drawString("ESCAPE", 25, 45);
-		g.drawString("____________", 10, 60);
+		g.drawString("______________", 0, 60);
 		g.drawString("SCORE : " + score, 15, 100);
 		g.drawString("VITESSE : " + speed, 15, 125);
 		
@@ -191,7 +191,7 @@ public class Work extends JPanel implements ActionListener, KeyListener {
 		g.drawString("LES ENNEMIES" , 5, 550);
 
 		
-		g.drawString("____________", 10, 640);
+		g.drawString("______________", 0, 640);
 		g.drawString("DEV BY KCL" , 15, 660);
 		//g.setColor(Color.MAGENTA);
 		
